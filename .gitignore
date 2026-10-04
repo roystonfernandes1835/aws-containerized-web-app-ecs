@@ -1,0 +1,46 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pkcs12
+*.pfx
+*.p12
+id_rsa
+id_ecdsa
+id_ed25519
+
+# AWS Credentials & Configuration
+.aws/
+credentials
+config
+aws-credentials*
+*.aws/
+
+# Node / Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Operating System & Temporary Files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.temp
+*~
+
+# IDE & Editor Configuration
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Docker Temporary Files & Logs
+*.docker.log
+.docker/
